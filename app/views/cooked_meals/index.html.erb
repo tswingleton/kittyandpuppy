@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Cooked Meals</h1>
+<h1>What should we cook?</h1>
 
 <table>
   <thead>
@@ -18,7 +18,7 @@
         <td><%= cooked_meal.Recipe %></td>
         <td><%= link_to 'Show', cooked_meal %></td>
         <td><%= link_to 'Edit', edit_cooked_meal_path(cooked_meal) %></td>
-        <td><%= link_to 'Destroy', cooked_meal, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', cooked_meal, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
