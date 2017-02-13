@@ -1,4 +1,5 @@
 <p id="notice"><%= notice %></p>
+<wrapper>
 <center>
 <h1>Where should we go to eat tonight?</h1>
 
@@ -18,7 +19,7 @@
         <td><%= resturant.comment %></td>
         <td><%= link_to 'Show', resturant %></td>
         <td><%= link_to 'Edit', edit_resturant_path(resturant) %></td>
-        <td><%= link_to 'Destroy', resturant, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', resturant, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -27,3 +28,4 @@
 <br>
 <%= link_to 'Home', welcome_index_path %> | <%= link_to 'Add Resturant', new_resturant_path %> | <%= link_to 'Maybe we should cook instead.', cooked_meals_path %>
 </center>
+</wrapper>

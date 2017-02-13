@@ -14,12 +14,12 @@
  *= require_self
  */
 
-background: url('/assets/images/wallpaper.jpg');
  
  body {
    font-family: Helvetica, Geneva, Arial, sans-serif;
    font-size: small;
    color: #000;
+
 }
 
 a:link, a:active, a:visited {
@@ -62,3 +62,18 @@ div#sidebar {
    margin-left: 480px;
 }
 
+wrapper {
+    position: absolute;
+    margin-left: 50%;
+    margin-right: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    background-color: #842b3f;
+    opacity: 0.9;
+    /*-webkit-filter: blur(4px);
+    filter: blur(4px);*/
+    } 
