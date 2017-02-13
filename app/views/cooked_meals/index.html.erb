@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Cooked Meals</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Recipe</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @cooked_meals.each do |cooked_meal| %>
+      <tr>
+        <td><%= cooked_meal.Name %></td>
+        <td><%= cooked_meal.Recipe %></td>
+        <td><%= link_to 'Show', cooked_meal %></td>
+        <td><%= link_to 'Edit', edit_cooked_meal_path(cooked_meal) %></td>
+        <td><%= link_to 'Destroy', cooked_meal, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Cooked Meal', new_cooked_meal_path %> <br><br>
+<%= link_to 'Home', welcome_index_path %> | <%= link_to 'What should we eat', resturants_path %>

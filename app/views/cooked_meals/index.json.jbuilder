@@ -1,0 +1,1 @@
+json.array! @cooked_meals, partial: 'cooked_meals/cooked_meal', as: :cooked_meal
