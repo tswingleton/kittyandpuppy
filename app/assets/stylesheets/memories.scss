@@ -1,0 +1,52 @@
+// Place all the styles related to the Memories controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+ body {
+   font-family: Helvetica, Geneva, Arial, sans-serif;
+   font-size: small;
+   color: #000;
+   background-image: url(wallpaper2.jpg);
+   background-position: center;
+   background-attachment: fixed;
+}
+
+a:link, a:active, a:visited {
+   color: #CD0000;
+}
+
+input { 
+   margin-bottom: 5px;
+}
+
+p { 
+   color: #000;
+   line-height: 150%;
+}
+
+div#container {
+   width: 760px;
+   margin: 0 auto;
+}
+
+div#header {
+   text-align: center;
+   padding-bottom: 15px;
+}
+
+div#content {
+   float: left;
+   width: 450px;
+   padding: 10px;
+}
+
+div#content h3 {
+   margin-top: 15px;
+}
+
+
+
+div#sidebar {
+   width: 200px;
+   margin-left: 480px;
+}
+

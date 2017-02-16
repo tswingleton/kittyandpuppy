@@ -1,0 +1,1 @@
+json.partial! "cooked_meals/cooked_meal", cooked_meal: @cooked_meal

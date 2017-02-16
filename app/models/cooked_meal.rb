@@ -1,0 +1,2 @@
+class CookedMeal < ApplicationRecord
+end
