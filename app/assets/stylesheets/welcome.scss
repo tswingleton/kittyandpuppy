@@ -67,7 +67,7 @@ div#content h3 {
 }
 
 table, {
-   border: 1px solid black;
+   border: 1px solid white;
    width: 90%;
    tr:nth-child(even) {background-color: #696c70}
 
@@ -85,7 +85,7 @@ th {
 	height: 50px;
 	text-align:left;
 	width: 70%;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #ffffff;
 	}
 
 div#sidebar {
@@ -107,5 +107,6 @@ wrapper {
     background-color: #4a4c4f;
     opacity: 0.9;
     /*-webkit-filter: blur(4px);
-    filter: blur(4px);*/
-    } 
+    filter: blur(4px); */
+    }
+
